@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ttime</string>
+    <!-- 首页下方四个单选按钮组 -->
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <!--以跑马灯的形式显示文字-->
+        <item name="android:ellipsize">marquee</item>
+        <!--文字在View的水平中间显示-->
+        <item name="android:gravity">center_horizontal</item>
+        <!--View在父view的中间显示-->
+        <item name="android:layout_gravity">center_horizontal</item>
+        <!--内边框-->
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>
